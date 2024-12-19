@@ -1,10 +1,11 @@
-package az.codebridge.task.service;
+package az.codebridge.task.service.impl;
 
 import az.codebridge.task.dto.UserRequestDto;
 import az.codebridge.task.dto.UserResponseDto;
 import az.codebridge.task.entity.UserEntity;
 import az.codebridge.task.exception.UserNotFoundException;
 import az.codebridge.task.repository.UserRepository;
+import az.codebridge.task.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

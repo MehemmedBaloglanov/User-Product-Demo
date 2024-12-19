@@ -1,7 +1,0 @@
-1) Productun butun classlarini refactor ele
-2) Porductun service imple hissesinde methodlardaki bug lari tap duzelt
-3) Islene bilen yerlerde model mapper islet
-4) AOP qosun
-5) Methodlarda Transaction istifade et
-6) Umumi olaraq butun proyekti basdan asagi bax nese sehvlik varsa onlari duzelt
-7) Global Exception handlerin methodlari hissesini arasdir ve isletdiyin butun exceptionlarin handlerini yaz ve yoxla

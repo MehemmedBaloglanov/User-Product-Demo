@@ -1,4 +1,4 @@
-package az.codebridge.task.service;
+package az.codebridge.task.service.impl;
 
 import az.codebridge.task.dto.ProductRequestDto;
 import az.codebridge.task.dto.ProductResponseDto;
@@ -10,6 +10,7 @@ import az.codebridge.task.exception.StockException;
 import az.codebridge.task.exception.UserNotFoundException;
 import az.codebridge.task.repository.ProductRepository;
 import az.codebridge.task.repository.UserRepository;
+import az.codebridge.task.service.ProductService;
 import az.codebridge.task.status.ProductStatus;
 import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;

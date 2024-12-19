@@ -32,7 +32,6 @@ public class GlobalExceptionHandler extends DefaultErrorAttributes {
         return ofType(request, HttpStatus.NOT_FOUND, ex.getMessage(), List.of());
     }
 
-    //Bunu elave elemisem
 
     @ExceptionHandler(ProductNotFoundException.class)
     public ResponseEntity<Map<String, Object>> handle(ProductNotFoundException ex,
@@ -41,7 +40,6 @@ public class GlobalExceptionHandler extends DefaultErrorAttributes {
         return ofType(request, HttpStatus.NOT_FOUND, ex.getMessage(), List.of());
     }
 
-    //bunu elave elemisem
     @ExceptionHandler(StockException.class)
     public ResponseEntity<Map<String, Object>> handle(StockException ex,
                                                       WebRequest request) {
@@ -50,7 +48,6 @@ public class GlobalExceptionHandler extends DefaultErrorAttributes {
     }
 
 
-    //bunu elave elemisem
     @ExceptionHandler(BalanceException.class)
     public ResponseEntity<Map<String, Object>> handle(BalanceException ex,
                                                       WebRequest request) {
